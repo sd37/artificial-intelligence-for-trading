@@ -2,6 +2,7 @@ name: aitradingnd
 channels:
 - conda-forge
 - anaconda
+- pypi
 - defaults
 dependencies:
 - cython=0.28.2
@@ -26,5 +27,5 @@ dependencies:
 - six==1.11.0
 - tqdm=4.19.5
 - pip:
-  - zipline==1.2.0
-  - cvxpy==1.0.3
+  - zipline == 1.4.1
+  - cvxpy == 1.1.7
