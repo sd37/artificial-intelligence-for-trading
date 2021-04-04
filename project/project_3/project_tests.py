@@ -134,7 +134,7 @@ def test_calculate_cumulative_returns(fn):
         (
             'cumulative_returns',
             pd.Series(
-                [np.nan, 5.93647782, -0.57128454, -0.68260542],
+                [1.00000000, 5.93647782, -0.57128454, -0.68260542],
                 dates))])
 
     assert_output(fn, fn_inputs, fn_correct_outputs)
